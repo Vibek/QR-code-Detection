@@ -43,6 +43,6 @@ If you found error while you run
 
 you need to install first libtool
    sudo apt-get update
-  sudo apt-get install libtool
+   sudo apt-get install libtool
 
 And try once again, it will work well
