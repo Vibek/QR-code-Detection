@@ -34,3 +34,15 @@ export ROS_PACKAGE_PATH=/opt/ros/groovy/share:$ROS_PACKAGE_PATH
 export ROS_PACKAGE_PATH=/opt/ros/groovy/stacks:$ROS_PACKAGE_PATH
 export ROS_ROOT=/opt/ros/groovy/share/ros/
 
+Note:
+
+If you found error while you run 
+    sudo autoreconf --install
+
+" autoreconf2.50: automake failed with exist status:1"
+
+you need to install first libtool
+   sudo apt-get update
+  sudo apt-get install libtool
+
+And try once again, it will work well
