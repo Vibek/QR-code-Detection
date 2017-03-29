@@ -1,9 +1,12 @@
 QR-code-Detection
 =================
 
-QRcode detection in Mapping for NAO Robot
+QRcode detection using Kinect vision sensor.
 
-In Obstacle avoidance the naorobot.h is not given due to high privance.
+The repository contains ROS packages for landmark (QR code) decetion/ The project includes ROS packages for the following:
 
-if any user need the naorobot.h file for thier developement purpose should ping me in my official email-address
-vibek@meil.pw.edu.pl
+1. ROS packages for recognition and decoding the QR code using Zbar-libary.
+2. Write the position (x,y) coordinates of an QR code.
+
+
+
